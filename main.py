@@ -10,13 +10,24 @@ ceps = [
     "60060120",
     "70040900",
     "80010000",
-    "90010000",
+    "12ABC345",
     "99999999"
 ]
 
 resultados = []
 
 for cep in ceps:
+        if not cep.isdigit() or len(cep) != 8:
+        resultados.append({
+            "cep": cep,
+            "logradouro": "",
+            "bairro": "",
+            "cidade": "",
+            "uf": "",
+            "ibge": "",
+            "status": "Entrada inválida"
+        })
+        continue
     url = f"https://viacep.com.br/ws/{cep}/json/"
 
     try:
