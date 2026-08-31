@@ -1,0 +1,11 @@
+﻿cep,logradouro,bairro,cidade,uf,ibge,status
+01001-000,Praça da Sé,Sé,São Paulo,SP,3550308,OK
+20040-002,Avenida Rio Branco,Centro,Rio de Janeiro,RJ,3304557,OK
+30140-071,Rua dos Aimorés,Boa Viagem,Belo Horizonte,MG,3106200,OK
+40010-000,Avenida da França,Comércio,Salvador,BA,2927408,OK
+50010-000,Avenida Guararapes,Santo Antônio,Recife,PE,2611606,OK
+60060-120,Rua Vinte e Cinco de Março,Centro,Fortaleza,CE,2304400,OK
+70040900,,,,,,CEP não encontrado
+80010-000,Rua José Loureiro,Centro,Curitiba,PR,4106902,OK
+90010-000,Rua Siqueira Campos,Centro Histórico,Porto Alegre,RS,4314902,OK
+99999999,,,,,,CEP não encontrado
