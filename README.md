@@ -31,7 +31,7 @@ O script:
    - Cidade
    - UF
    - Código IBGE
-4. Trata CEPs inexistentes e erros de comunicação com a API.
+4. Trata entradas inválidas, CEPs inexistentes e erros de comunicação com a API, sem interromper a execução.
 5. Gera o arquivo `enderecos.csv` com os resultados.
 
 ## Arquivos do projeto
